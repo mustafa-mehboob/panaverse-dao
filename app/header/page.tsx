@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import Panaverse from '../images/panaverse-logo.png'
+import "header.css"
 
 export default function Navbar() {
     let navbar = false;
@@ -16,7 +17,6 @@ export default function Navbar() {
                                 {/* <h2 className="text-2xl text-white font-bold">NEXT JS</h2> */}
                                 <Image className='panaverse-img text-2xl text-gray font-bold '
                                     src={Panaverse}
-                                    // src="https://pbs.twimg.com/profile_images/1573936081082482688/5xc_Zr67_400x400.jpg"
                                     alt="Panaverse Dao"
                                     width={40}
                                     height={1}
